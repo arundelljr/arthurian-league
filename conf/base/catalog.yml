@@ -1,0 +1,27 @@
+season_ids_data: 
+    type: kedro_datasets.json.JSONDataset
+    filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\season_ids.json
+
+fixture_data:
+    type: kedro_datasets.pandas.CSVDataset
+    filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\fixture_data.csv
+
+normal_fixtures:
+    type: kedro_datasets.pandas.CSVDataset
+    filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\normal_fixtures.csv
+
+ALFIE_fixtures:
+    type: kedro_datasets.pandas.CSVDataset
+    filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\ALFIE_fixtures.csv
+
+stacked_ALFIE_fixtures:
+  type: kedro_datasets.pandas.ExcelDataset
+  filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\stacked_ALFIE_fixtures.xlsx
+  save_args:
+    index: False
+
+grouped_ALFIE_fixtures:
+  type: kedro_datasets.pandas.ExcelDataset
+  filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\grouped_ALFIE_fixtures.xlsx
+  save_args:
+    index: False
