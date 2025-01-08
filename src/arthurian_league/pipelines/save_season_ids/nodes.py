@@ -11,7 +11,7 @@ def _get_url_soup(link):
     return soup
 
 
-# Extract the season links and store IDs and names in dictionary/json AND SAVE AS A FILE SO IT CAN BE STORED IN THE DATASET
+# Extract the season names and corresponding IDs
 def _extract_season_ids(soup):
     select_element = soup.find("select", id="form1_selectedSeason")
     season_elements = select_element.find_all("option")
@@ -24,9 +24,7 @@ def _extract_season_ids(soup):
     return season_ids
 
 
+# Store season IDs and names in a json file 
 def _save_to_json(data, save_filepath):
-    # Create the Kedro JSONDataset
     dataset = JSONDataset(filepath=save_filepath)
-    
-    # Save data to the dataset (this replaces json.dump())
     dataset.save(data)
