@@ -1,4 +1,4 @@
-season_ids_data: 
+season_ids_json: 
     type: kedro_datasets.json.JSONDataset
     filepath: C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\season_ids.json
 
