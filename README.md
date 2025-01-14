@@ -3,7 +3,7 @@
 ## Project Outline
 
 This project aims to provide a comprehensive and interactive analysis of historical fixtures in the Arthurian League, an amateur 11-a-side football league in London. By scraping and transforming data from the FA website, the project creates a centralized database for historical results and introduces a closeness/excitement rating for each game: 
-the Arthurian League Fixture Index Excitement (ALFIE) rating. 
+the Arthurian League Fixture Index Evaluation (ALFIE) rating. 
 This is a personal, end-to-end project with the main aim of honing my data engineering and data management skills, as well as data wrangling and analytical techniques. It will also have usable end product for any interested parties (ie. players/admins of the amateur league) such as queryable tables and dashboards.
 
 ## Amateur Football

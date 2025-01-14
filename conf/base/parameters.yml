@@ -2,16 +2,7 @@ fa_urls:
     seasons_url: "https://fulltime.thefa.com/index.html?league=847518011&selectedSeason=249912101&selectedDivision=272973748&selectedCompetition=0&selectedFixtureGroupKey=1_467585716"
     fixtures_url: "https://fulltime.thefa.com/results/1/10000.html?selectedSeason={season_id}&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFixtureGroupKey=&previousSelectedFixtureGroupKey=&selectedDateCode=all&selectedRelatedFixtureOption=2&selectedClub=&previousSelectedClub=&selectedTeam="
 
-season_ids_filepath: "C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\season_ids.json"
-
-fixture_data_filepath: "C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\fixture_data.csv"
-
-fixtures_clean_filepath:
-    normal_results: "C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\normal_fixtures.csv"
-    other_results: "C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\other_fixtures.csv"
-
 ALFIE_rating:
     new_col: "ALFIE_rating"
     homescore: "Home_goals"
     awayscore: "Away_goals"
-    filepath: "C:\\Users\\arund\\coding\\arthurian-league\\data\\02_intermediate\\ALFIE_fixtures.csv"
